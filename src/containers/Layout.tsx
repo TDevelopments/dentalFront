@@ -1,13 +1,13 @@
 import React from 'react'
 
-import { MyDrawer } from './Drawer'
+//My components
+import Header from '../components/Header'
 
 const Layout: React.FC = ({children}) => {
     return(
         <>
-            <MyDrawer>
-                {children}
-            </MyDrawer>
+            <Header/>
+            {children}
         </>
     )
 }
